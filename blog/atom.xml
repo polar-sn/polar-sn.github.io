@@ -2,108 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://polar-sn.github.io/blog</id>
     <title>polar.blog Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-01-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://polar-sn.github.io/blog"/>
     <subtitle>polar.blog Blog</subtitle>
     <icon>https://polar-sn.github.io/img/penguin.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://polar-sn.github.io/blog/welcome</id>
-        <link href="https://polar-sn.github.io/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Docusaurus 블로그 개발]]></title>
+        <id>https://polar-sn.github.io/blog/first-post</id>
+        <link href="https://polar-sn.github.io/blog/first-post"/>
+        <updated>2025-01-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[삽질하고 공부하던 기억이 잊혀지는 게 아까워 글로 남겨야지 생각만하다가]]></summary>
+        <content type="html"><![CDATA[<p>삽질하고 공부하던 기억이 잊혀지는 게 아까워 글로 남겨야지 생각만하다가
+드디어 블로그를 만들고 첫 포스트를 작성하였다.</p>
+<p>첫 포스트에는 이 블로그를 만드는 여정을 담았다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="어떤-플랫폼을-사용할까">어떤 플랫폼을 사용할까<a href="https://polar-sn.github.io/blog/first-post#%EC%96%B4%EB%96%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C" class="hash-link" aria-label="어떤 플랫폼을 사용할까에 대한 직접 링크" title="어떤 플랫폼을 사용할까에 대한 직접 링크">​</a></h3>
+<p>블로그를 개설하려면 어느 폴랫폼을 이용해 블로그를 운영할지 정해야한다.
+국내에서 많이 사용하는 블로그 플랫폼으로는 네이버 블로그, 티스토리가 있고,
+최근에는 브런치, 깃허브, 미디엄, 노션, 워드프레스, 벨로그 등
+목적과 선호에 맞게 정말 다양한 플랫폼이 존재한다.</p>
+<p>[각 블로그 플랫폼 장단점]</p>
+<table><thead><tr><th></th><th>네이버 블로그</th><th>티스토리</th><th></th></tr></thead><tbody><tr><td>장점</td><td>- 높은 국내 노출량 - 운영의 편리함</td><td>- ㄴ네ㄴ</td><td>All major browsers</td></tr><tr><td>단점</td><td>- 상업적 성격이 강해 퍼스널 브랜딩으로 적합하지 않음 - 하락중인 네이버 검색 점유율, 높아진 구글 검색 비중</td><td>Programed Trusted Types</td><td>Origin</td></tr></tbody></table>
+<p>나는 기술 블로그를 목적으로 하고 있으므로 기본적으로 마크다운과 코드 하이라이팅을
+지원하는지, 그리고 추가로 깔끔한 디자인을 제공하는지 고려하였다.</p>
+<p>고민하던 부분은 꾸준히 쓰려면 막 써야 할거 같은데, 그러려면 티스토리나 벨로그와 같은 플랫폼이
+좋을 거 같고, 그러자니 그래도 컴퓨터 전공자로써 github pages에 블로그를 구축해 보고 싶은
+욕심도 피어났다.</p>
+<p>고민 끝에 좀 더 도전적인 게 더 끌렸고, 최근에 웹 개발에 많이 사용되는
+Javascript + React 조합의 플랫폼을 다뤄보고 싶었다.</p>
+<p>크게 아래와 같은 기능을 기준으로
+플랫폼을 선정하였다.</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>마크다운 지원</li>
+<li>코드 하이라이팅 지원</li>
+<li>깔끔한 디자인</li>
+<li>트렌디한 플랫폼</li>
+<li>활성화된 커뮤니티</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://polar-sn.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://polar-sn.github.io/blog/mdx-blog-post</id>
-        <link href="https://polar-sn.github.io/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>팁</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="클립보드에 코드 복사" title="복사" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://polar-sn.github.io/blog/long-blog-post</id>
-        <link href="https://polar-sn.github.io/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://polar-sn.github.io/blog/first-blog-post</id>
-        <link href="https://polar-sn.github.io/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
+<p>최종적으로, <code>Github Pages</code>를 이용해 <code>Docusaurus</code> 기반의 블로그를
+만들기로 결정하였다.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurus란">Docusaurus란<a href="https://polar-sn.github.io/blog/first-post#docusaurus%EB%9E%80" class="hash-link" aria-label="Docusaurus란에 대한 직접 링크" title="Docusaurus란에 대한 직접 링크">​</a></h3>
+<p><a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>는 JAM Stack을 활용한 정적 사이트 생성기(Static Site Generator)로, JAM Stack은 주로 JavaScript, API, Markup(HTML/CSS)을 사용하여 웹 사이트를 구축하는 방법을 말한다.</p>
+<p>JAM Stack을 이용한 정적 사이트 생성기 리스트는 <a href="https://jamstack.org/generators/" target="_blank" rel="noopener noreferrer">여기서</a> 확인할 수 있다.
+<img decoding="async" loading="lazy" src="https://polar-sn.github.io/assets/images/JAM-SSG-52bab23767fb698e02905b694ccc1f9b.png" width="1714" height="1994" class="img_ev3q"></p>
+<p>가장 인기가 많은 프레임워크는 Javascript + React 조합인 <code>Next.js</code>이지만, 주로 서버 사이드 렌더링을 위해 사용하는 프레임워크라고 하여 그 다음으로 많이 사용 중이 <code>Docusaurus</code>를 선택하였다.</p>]]></content>
+        <category label="Blog" term="Blog"/>
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
 </feed>
